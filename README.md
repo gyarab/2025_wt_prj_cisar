@@ -1,1 +1,2 @@
-# 2025_wt_prj_cisar
+# Hokejové statistiky
+Projekt slouží k přehledu a evidenci statistik českých hokejových týmů a hráčů, zahrnující extraligu i národní reprezentaci. Databáze uchovává informace o týmech, hráčích, zápasech, skóre a individuálních statistikách. Uživatelé mohou zobrazit výsledky zápasů, tabulky ligy, přehledy hráčů a jejich výkony v klubech i reprezentaci. Projekt ukazuje schopnosti práce s databází v Django, tvorbu modelů, zobrazení dat přes šablony, filtrování a administraci přes Django admin. Cílem je vytvořit přehledný a interaktivní nástroj pro sledování českého hokeje.
