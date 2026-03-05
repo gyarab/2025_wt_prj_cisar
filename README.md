@@ -1,2 +1,9 @@
-# Hokejové statistiky
+# Hockey Base
 Projekt slouží k přehledu a evidenci statistik českých hokejových týmů, zahrnující Tipsport extraligu i výsledky české hokejové reprezentace. Databáze uchovává informace o týmech, hráčích, zápasech, skóre a individuálních statistikách. Uživatelé mohou zobrazit výsledky zápasů, tabulky ligy, přehledy hráčů, přidávat komentáře k zápasům nebo si ukládat své oblíbené týmy. Cílem je vytvořit přehledný a interaktivní nástroj pro sledování českého hokeje.
+
+# Odborný článek
+Projekt HockeyBase představuje webovou databázovou aplikaci zaměřenou na evidenci a prezentaci dat ze světa <u>ledního hokeje</u>. Cílem aplikace je vytvořit přehledný <u>informační systém</u>, který umožní uživatelům zobrazovat informace o <u>týmech</u>, <u>hráčích</u> a jednotlivých <u>zápasech</u> české reprezentace a Tipsport extraligy. Aplikace využívá strukturovanou <u>databázi</u>, ve které jsou ukládána <u>sportovní data</u> a <u>statistiky</u>.
+
+Uživatel se po vstupu do aplikace dostane na <u>domovskou stránku</u>, odkud může přejít do hlavních sekcí aplikace. Jednou z nich je sekce <u>týmy</u>, která obsahuje seznam všech <u>týmů</u> extraligy. Po otevření stránky <u>detail týmu</u> může uživatel zobrazit základní informace o <u>týmu</u>  a jeho <u>soupisku</u>. Další sekcí jsou <u>hráči</u>, kde lze zobrazit seznam všech <u>hráčů</u>. Na stránce <u>statistiky hráče</u> jsou uvedeny individuální <u>statistiky</u>, například počet <u>gólů</u>, <u>asistencí</u> nebo <u>trestných minut</u>.
+
+Další důležitou částí aplikace je sekce <u>zápasy</u>, která obsahuje přehled všech odehraných <u>utkání</u>. Po otevření stránky <u>detail zápasu</u> může uživatel zobrazit informace o zúčastněných <u>týmech</u>, <u>výsledku</u> a základních <u>statistikách zápasu</u>.
