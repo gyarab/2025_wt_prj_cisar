@@ -1,4 +1,3 @@
-# Hockey Base
 # HockeyBase
 
 Projekt HockeyBase představuje webovou **databázovou aplikaci** zaměřenou na evidenci a prezentaci **dat** ze světa **ledního hokeje**. Cílem aplikace je vytvořit přehledný **informační systém**, který umožní **uživatelům** zobrazovat **informace** o **týmech**, **hráčích** a jednotlivých **zápasech** **české reprezentace** a **Tipsport extraligy**. Aplikace využívá strukturovanou **databázi**, ve které jsou ukládána **sportovní data** a **statistiky**.
@@ -9,5 +8,9 @@ Poslední sekcí aplikace jsou **Zápasy**. Ta obsahuje **přehled** všech odeh
 
 Aplikace má též přístup z **funkce administrátora**. **Administrátor** má přístup do **sekce administrace**, kde může provádět **správu databáze**. V této části může přidávat nové **týmy**, **hráče** nebo **zápasy** a upravovat existující **informace** a **statistiky**.
 
+# Wireframes
 <img width="711" height="942" alt="image" src="https://github.com/user-attachments/assets/a019a4d8-04e1-4691-873c-edf96837d0c8" />
+# User flow
 <img width="688" height="354" alt="image" src="https://github.com/user-attachments/assets/287881ee-23b7-4297-b38c-424793dcd6fb" />
+
+![E-R diagram](E-R_diagram.png)
