@@ -4,6 +4,7 @@ class Team(models.Model):
     name = models.CharField(max_length=100)
     stadium = models.CharField(max_length=100)
     colours = models.CharField(max_length=100)
+    founded_year = models.IntegerField()
     
 
     def __str__(self):
@@ -22,6 +23,8 @@ class Player(models.Model):
 class Match(models.Model):
     home_team = models.ForeignKey(Team, related_name='home_matches', on_delete=models.CASCADE)
     away_team = models.ForeignKey(Team, related_name='away_matches', on_delete=models.CASCADE)
+    score_home = models.IntegerField(default=0)
+    score_away = models.IntegerField(default=0)
     date = models.DateTimeField()
     stadium = models.CharField(max_length=100)
 
