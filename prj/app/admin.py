@@ -1,8 +1,18 @@
 from django.contrib import admin
-from .models import Team, Player
+from .models import Team, Player, Match
 
 admin.site.register(Team)
 admin.site.register(Player)
+admin.site.register(Match)
+
+@admin.register(Team)
 class TeamAdmin(admin.ModelAdmin):
     list_display = ('name', 'stadium', 'colours')
-    
+
+@admin.register(Player)
+class PlayerAdmin(admin.ModelAdmin):
+    list_display = ('name', 'age', 'position', 'number', 'team')
+
+@admin.register(Match)
+class MatchAdmin(admin.ModelAdmin):
+    list_display = ('home_team', 'away_team', 'date', 'stadium')
