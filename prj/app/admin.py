@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Team, Player, Match
+from .models import Team, Player, Match, Statistics
 
 
 @admin.register(Team)
@@ -13,4 +13,8 @@ class PlayerAdmin(admin.ModelAdmin):
 @admin.register(Match)
 class MatchAdmin(admin.ModelAdmin):
     list_display = ('home_team', 'away_team', 'date', 'stadium', 'score_home', 'score_away')
+
+@admin.register(Statistics)
+class StatisticsAdmin(admin.StatisticsAdmin):
+    list_display = ('goals', 'assist', 'penalty_minutes')
 
