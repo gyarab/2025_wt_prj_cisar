@@ -30,14 +30,3 @@ class Match(models.Model):
 
     def __str__(self):
         return f"{self.home_team.name} vs {self.away_team.name} on {self.date}"
-
-class Statistics(models.Model):
-    player = models.ForeignKey(Player, on_delete=models.CASCADE, related_name="stats")
-    match = models.ForeignKey(Match, on_delete=models.CASCADE, related_name="stats")
-
-    goals = models.IntegerField(default=0)
-    assists = models.IntegerField(default=0)
-    penalty_minutes = models.IntegerField(default=0)
-
-    def __str__(self):
-        return f"{self.player.name} - {self.match}: G:{self.goals} A:{self.assists} TM:{self.penalty_minutes}" 
