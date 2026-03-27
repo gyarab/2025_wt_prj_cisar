@@ -15,6 +15,6 @@ class MatchAdmin(admin.ModelAdmin):
     list_display = ('home_team', 'away_team', 'date', 'stadium', 'score_home', 'score_away')
 
 @admin.register(Statistics)
-class StatisticsAdmin(admin.StatisticsAdmin):
-    list_display = ('goals', 'assist', 'penalty_minutes')
+class StatisticsAdmin(admin.ModelAdmin):
+    list_display = ('goals', 'assists', 'penalty_minutes')
 

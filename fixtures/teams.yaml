@@ -1,0 +1,111 @@
+- model: app.Team
+  pk: 1
+  fields:
+    name: HC Sparta Praha
+    stadium: O2 arena
+    colours: červená, bílá, modrá
+    founded_year: 1903
+
+- model: app.Team
+  pk: 2
+  fields:
+    name: HC Oceláři Třinec
+    stadium: Werk Arena
+    colours: červená, bílá
+    founded_year: 1929
+
+- model: app.Team
+  pk: 3
+  fields:
+    name: Bílí Tygři Liberec
+    stadium: Home Credit Arena
+    colours: bílá, modrá
+    founded_year: 2000
+
+- model: app.Team
+  pk: 4
+  fields:
+    name: HC Dynamo Pardubice
+    stadium: Enteria arena
+    colours: červená, bílá
+    founded_year: 1923
+
+- model: app.Team
+  pk: 5
+  fields:
+    name: HC Kometa Brno
+    stadium: Winning Group Arena
+    colours: modrá, bílá
+    founded_year: 1953
+
+- model: app.Team
+  pk: 6
+  fields:
+    name: Mountfield HK
+    stadium: ČPP Arena
+    colours: červená, černá, bílá
+    founded_year: 2013
+
+- model: app.Team
+  pk: 7
+  fields:
+    name: HC Verva Litvínov
+    stadium: Zimní stadion Ivana Hlinky
+    colours: žlutá, černá
+    founded_year: 1945
+
+- model: app.Team
+  pk: 8
+  fields:
+    name: HC Energie Karlovy Vary
+    stadium: KV Arena
+    colours: zelená, černá
+    founded_year: 1932
+
+- model: app.Team
+  pk: 9
+  fields:
+    name: HC Škoda Plzeň
+    stadium: LOGSPEED CZ Aréna
+    colours: modrá, bílá
+    founded_year: 1929
+
+- model: app.Team
+  pk: 10
+  fields:
+    name: HC Olomouc
+    stadium: Zimní stadion Olomouc
+    colours: červená, bílá
+    founded_year: 1955
+
+- model: app.Team
+  pk: 11
+  fields:
+    name: PSG Berani Zlín
+    stadium: Trinity Bank Aréna Luďka Čajky
+    colours: žlutá, modrá
+    founded_year: 1929
+
+- model: app.Team
+  pk: 12
+  fields:
+    name: HC Vítkovice Ridera
+    stadium: Ostravar Aréna
+    colours: modrá, bílá
+    founded_year: 1928
+
+- model: app.Team
+  pk: 13
+  fields:
+    name: BK Mladá Boleslav
+    stadium: ŠKO-ENERGO Aréna
+    colours: zelená, bílá
+    founded_year: 1908
+
+- model: app.Team
+  pk: 14
+  fields:
+    name: Rytíři Kladno
+    stadium: ČEZ Stadion Kladno
+    colours: modrá, bílá
+    founded_year: 1924
