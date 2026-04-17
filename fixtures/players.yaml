@@ -1,0 +1,662 @@
+- model: app.Player
+  pk: 1
+  fields:
+    name: Jan Kovář
+    age: 34
+    position: Center
+    number: 70
+    team: 1
+
+- model: app.Player
+  pk: 2
+  fields:
+    name: Michal Řepík
+    age: 35
+    position: Right Wing
+    number: 26
+    team: 1
+
+- model: app.Player
+  pk: 3
+  fields:
+    name: Filip Chlapík
+    age: 28
+    position: Left Wing
+    number: 13
+    team: 1
+
+- model: app.Player
+  pk: 4
+  fields:
+    name: Ondřej Mikliš
+    age: 28
+    position: Defense
+    number: 45
+    team: 1
+
+- model: app.Player
+  pk: 5
+  fields:
+    name: David Vitouch
+    age: 23
+    position: Center
+    number: 96
+    team: 1
+
+- model: app.Player
+  pk: 6
+  fields:
+    name: Jakub Krejčík
+    age: 32
+    position: Defense
+    number: 84
+    team: 1
+
+
+# TŘINEC
+- model: app.Player
+  pk: 7
+  fields:
+    name: Martin Růžička
+    age: 38
+    position: Right Wing
+    number: 90
+    team: 2
+
+- model: app.Player
+  pk: 8
+  fields:
+    name: Andrej Nestrašil
+    age: 33
+    position: Center
+    number: 83
+    team: 2
+
+- model: app.Player
+  pk: 9
+  fields:
+    name: Tomáš Kundrátek
+    age: 35
+    position: Defense
+    number: 8
+    team: 2
+
+- model: app.Player
+  pk: 10
+  fields:
+    name: Libor Hudáček
+    age: 33
+    position: Left Wing
+    number: 81
+    team: 2
+
+- model: app.Player
+  pk: 11
+  fields:
+    name: Petr Vrána
+    age: 39
+    position: Center
+    number: 24
+    team: 2
+
+
+# LIBEREC
+- model: app.Player
+  pk: 12
+  fields:
+    name: Michal Bulíř
+    age: 32
+    position: Center
+    number: 24
+    team: 3
+
+- model: app.Player
+  pk: 13
+  fields:
+    name: Adam Musil
+    age: 28
+    position: Center
+    number: 18
+    team: 3
+
+- model: app.Player
+  pk: 14
+  fields:
+    name: Petr Jelínek
+    age: 38
+    position: Center
+    number: 19
+    team: 3
+
+- model: app.Player
+  pk: 15
+  fields:
+    name: Radim Šimek
+    age: 32
+    position: Defense
+    number: 57
+    team: 3
+
+- model: app.Player
+  pk: 16
+  fields:
+    name: Jakub Rychlovský
+    age: 24
+    position: Right Wing
+    number: 20
+    team: 3
+
+
+# PARDUBICE
+- model: app.Player
+  pk: 17
+  fields:
+    name: Lukáš Sedlák
+    age: 31
+    position: Center
+    number: 88
+    team: 4
+
+- model: app.Player
+  pk: 18
+  fields:
+    name: Roman Červenka
+    age: 39
+    position: Center
+    number: 10
+    team: 4
+
+- model: app.Player
+  pk: 19
+  fields:
+    name: Dominik Kubalík
+    age: 30
+    position: Left Wing
+    number: 42
+    team: 4
+
+- model: app.Player
+  pk: 20
+  fields:
+    name: Jan Kolář
+    age: 37
+    position: Defense
+    number: 7
+    team: 4
+
+- model: app.Player
+  pk: 21
+  fields:
+    name: Jáchym Kondelík
+    age: 27
+    position: Center
+    number: 91
+    team: 4
+
+# KOMETA BRNO
+- model: app.Player
+  pk: 22
+  fields:
+    name: Jakub Flek
+    age: 32
+    position: Right Wing
+    number: 88
+    team: 5
+
+- model: app.Player
+  pk: 23
+  fields:
+    name: Petr Holík
+    age: 33
+    position: Center
+    number: 23
+    team: 5
+
+- model: app.Player
+  pk: 24
+  fields:
+    name: Jan Ščotka
+    age: 29
+    position: Defense
+    number: 47
+    team: 5
+
+- model: app.Player
+  pk: 25
+  fields:
+    name: Martin Zaťovič
+    age: 39
+    position: Left Wing
+    number: 85
+    team: 5
+
+- model: app.Player
+  pk: 26
+  fields:
+    name: Kristián Pospíšil
+    age: 27
+    position: Center
+    number: 11
+    team: 5
+
+
+# MOUNTFIELD HK
+- model: app.Player
+  pk: 27
+  fields:
+    name: Radovan Pavlík
+    age: 28
+    position: Right Wing
+    number: 71
+    team: 6
+
+- model: app.Player
+  pk: 28
+  fields:
+    name: Kevin Klíma
+    age: 28
+    position: Left Wing
+    number: 92
+    team: 6
+
+- model: app.Player
+  pk: 29
+  fields:
+    name: Tomáš Pavelka
+    age: 31
+    position: Defense
+    number: 77
+    team: 6
+
+- model: app.Player
+  pk: 30
+  fields:
+    name: Filip Pavlík
+    age: 32
+    position: Defense
+    number: 3
+    team: 6
+
+- model: app.Player
+  pk: 31
+  fields:
+    name: Aleš Jergl
+    age: 31
+    position: Center
+    number: 95
+    team: 6
+
+
+# HC VERVA LITVÍNOV
+- model: app.Player
+  pk: 32
+  fields:
+    name: Nicolas Hlava
+    age: 29
+    position: Left Wing
+    number: 71
+    team: 7
+
+- model: app.Player
+  pk: 33
+  fields:
+    name: Matúš Sukeľ
+    age: 28
+    position: Center
+    number: 90
+    team: 7
+
+- model: app.Player
+  pk: 34
+  fields:
+    name: Ondřej Kaše
+    age: 29
+    position: Right Wing
+    number: 88
+    team: 7
+
+- model: app.Player
+  pk: 35
+  fields:
+    name: David Kaše
+    age: 28
+    position: Center
+    number: 52
+    team: 7
+
+- model: app.Player
+  pk: 36
+  fields:
+    name: Patrik Demel
+    age: 27
+    position: Defense
+    number: 5
+    team: 7
+
+
+# KARLOVY VARY
+- model: app.Player
+  pk: 37
+  fields:
+    name: Ondřej Beránek
+    age: 30
+    position: Right Wing
+    number: 88
+    team: 8
+
+- model: app.Player
+  pk: 38
+  fields:
+    name: Vít Jiskra
+    age: 24
+    position: Center
+    number: 12
+    team: 8
+
+- model: app.Player
+  pk: 39
+  fields:
+    name: Jan Hladonik
+    age: 27
+    position: Left Wing
+    number: 21
+    team: 8
+
+- model: app.Player
+  pk: 40
+  fields:
+    name: Tomáš Redlich
+    age: 31
+    position: Defense
+    number: 5
+    team: 8
+
+- model: app.Player
+  pk: 41
+  fields:
+    name: Jiří Černoch
+    age: 31
+    position: Center
+    number: 19
+    team: 8
+
+# HC ŠKODA PLZEŇ
+- model: app.Player
+  pk: 42
+  fields:
+    name: Milan Gulaš
+    age: 36
+    position: Right Wing
+    number: 88
+    team: 9
+
+- model: app.Player
+  pk: 43
+  fields:
+    name: Jan Kovář
+    age: 34
+    position: Center
+    number: 16
+    team: 9
+
+- model: app.Player
+  pk: 44
+  fields:
+    name: Ondřej Matýs
+    age: 24
+    position: Left Wing
+    number: 27
+    team: 9
+
+- model: app.Player
+  pk: 45
+  fields:
+    name: David Jiříček
+    age: 20
+    position: Defense
+    number: 55
+    team: 9
+
+- model: app.Player
+  pk: 46
+  fields:
+    name: Lukáš Kaňák
+    age: 27
+    position: Defense
+    number: 5
+    team: 9
+
+
+# HC OLOMOUC
+- model: app.Player
+  pk: 47
+  fields:
+    name: Jan Bambula
+    age: 27
+    position: Right Wing
+    number: 92
+    team: 10
+
+- model: app.Player
+  pk: 48
+  fields:
+    name: Lukáš Nahodil
+    age: 33
+    position: Left Wing
+    number: 16
+    team: 10
+
+- model: app.Player
+  pk: 49
+  fields:
+    name: Adam Rutar
+    age: 25
+    position: Center
+    number: 26
+    team: 10
+
+- model: app.Player
+  pk: 50
+  fields:
+    name: Jiří Ondrušek
+    age: 37
+    position: Defense
+    number: 23
+    team: 10
+
+- model: app.Player
+  pk: 51
+  fields:
+    name: Matěj Machovský
+    age: 30
+    position: Goalkeeper
+    number: 1
+    team: 10
+
+
+# PSG BERANI ZLÍN
+- model: app.Player
+  pk: 52
+  fields:
+    name: Petr Holík
+    age: 33
+    position: Center
+    number: 24
+    team: 11
+
+- model: app.Player
+  pk: 53
+  fields:
+    name: Jakub Šlahař
+    age: 32
+    position: Right Wing
+    number: 88
+    team: 11
+
+- model: app.Player
+  pk: 54
+  fields:
+    name: Pavel Sedláček
+    age: 29
+    position: Left Wing
+    number: 11
+    team: 11
+
+- model: app.Player
+  pk: 55
+  fields:
+    name: Jakub Ferenc
+    age: 31
+    position: Defense
+    number: 27
+    team: 11
+
+- model: app.Player
+  pk: 56
+  fields:
+    name: Libor Kašík
+    age: 32
+    position: Goalkeeper
+    number: 33
+    team: 11
+
+
+# HC VÍTKOVICE RIDERA
+- model: app.Player
+  pk: 57
+  fields:
+    name: Dominik Lakatoš
+    age: 29
+    position: Right Wing
+    number: 68
+    team: 12
+
+- model: app.Player
+  pk: 58
+  fields:
+    name: Rostislav Olesz
+    age: 39
+    position: Center
+    number: 81
+    team: 12
+
+- model: app.Player
+  pk: 59
+  fields:
+    name: Marek Hrivík
+    age: 32
+    position: Center
+    number: 10
+    team: 12
+
+- model: app.Player
+  pk: 60
+  fields:
+    name: Patrik Koch
+    age: 26
+    position: Defense
+    number: 74
+    team: 12
+
+- model: app.Player
+  pk: 61
+  fields:
+    name: Roman Will
+    age: 32
+    position: Goalkeeper
+    number: 30
+    team: 12
+
+
+# BK MLADÁ BOLESLAV
+- model: app.Player
+  pk: 62
+  fields:
+    name: David Šťastný
+    age: 30
+    position: Right Wing
+    number: 86
+    team: 13
+
+- model: app.Player
+  pk: 63
+  fields:
+    name: Pavel Kousal
+    age: 26
+    position: Center
+    number: 21
+    team: 13
+
+- model: app.Player
+  pk: 64
+  fields:
+    name: Jakub Strnad
+    age: 30
+    position: Left Wing
+    number: 12
+    team: 13
+
+- model: app.Player
+  pk: 65
+  fields:
+    name: Radim Šimek
+    age: 32
+    position: Defense
+    number: 57
+    team: 13
+
+- model: app.Player
+  pk: 66
+  fields:
+    name: Jan Růžička
+    age: 27
+    position: Goalkeeper
+    number: 32
+    team: 13
+
+
+# RYTÍŘI KLADNO
+- model: app.Player
+  pk: 67
+  fields:
+    name: Jaromír Jágr
+    age: 52
+    position: Right Wing
+    number: 68
+    team: 14
+
+- model: app.Player
+  pk: 68
+  fields:
+    name: Tomáš Plekanec
+    age: 42
+    position: Center
+    number: 14
+    team: 14
+
+- model: app.Player
+  pk: 69
+  fields:
+    name: Matyáš Filip
+    age: 22
+    position: Left Wing
+    number: 25
+    team: 14
+
+- model: app.Player
+  pk: 70
+  fields:
+    name: Ondřej Bláha
+    age: 27
+    position: Defense
+    number: 7
+    team: 14
+
+- model: app.Player
+  pk: 71
+  fields:
+    name: Adam Brízgala
+    age: 25
+    position: Goalkeeper
+    number: 1
+    team: 14

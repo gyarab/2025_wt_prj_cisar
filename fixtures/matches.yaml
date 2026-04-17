@@ -1,0 +1,285 @@
+- model: app.Match
+  pk: 1001
+  fields:
+    home_team: 13
+    away_team: 1
+    score_home: 2
+    score_away: 5
+    date: 2026-02-22T17:00:00Z
+    stadium: ŠKO-ENERGO Aréna
+
+- model: app.Match
+  pk: 1002
+  fields:
+    home_team: 13
+    away_team: 10
+    score_home: 3
+    score_away: 2
+    date: 2026-02-24T17:00:00Z
+    stadium: ŠKO-ENERGO Aréna
+
+- model: app.Match
+  pk: 1003
+  fields:
+    home_team: 9
+    away_team: 8
+    score_home: 4
+    score_away: 3
+    date: 2026-02-25T17:00:00Z
+    stadium: LOGSPEED CZ Aréna
+
+- model: app.Match
+  pk: 1004
+  fields:
+    home_team: 14
+    away_team: 2
+    score_home: 1
+    score_away: 4
+    date: 2026-02-25T17:00:00Z
+    stadium: ČEZ Stadion Kladno
+
+- model: app.Match
+  pk: 1005
+  fields:
+    home_team: 6
+    away_team: 12
+    score_home: 3
+    score_away: 1
+    date: 2026-02-25T17:00:00Z
+    stadium: ČPP Arena
+
+- model: app.Match
+  pk: 1006
+  fields:
+    home_team: 3
+    away_team: 1
+    score_home: 2
+    score_away: 4
+    date: 2026-02-25T17:00:00Z
+    stadium: Home Credit Arena
+
+- model: app.Match
+  pk: 1007
+  fields:
+    home_team: 4
+    away_team: 5
+    score_home: 5
+    score_away: 3
+    date: 2026-02-25T17:00:00Z
+    stadium: Enteria arena
+
+
+# 50. kolo
+- model: app.Match
+  pk: 1008
+  fields:
+    home_team: 1
+    away_team: 9
+    score_home: 3
+    score_away: 2
+    date: 2026-02-27T17:00:00Z
+    stadium: O2 arena
+
+- model: app.Match
+  pk: 1009
+  fields:
+    home_team: 2
+    away_team: 6
+    score_home: 2
+    score_away: 3
+    date: 2026-02-27T17:00:00Z
+    stadium: Werk Arena
+
+- model: app.Match
+  pk: 1010
+  fields:
+    home_team: 8
+    away_team: 4
+    score_home: 1
+    score_away: 4
+    date: 2026-02-27T17:00:00Z
+    stadium: KV Arena
+
+- model: app.Match
+  pk: 1011
+  fields:
+    home_team: 12
+    away_team: 3
+    score_home: 2
+    score_away: 5
+    date: 2026-02-27T17:00:00Z
+    stadium: Ostravar Aréna
+
+- model: app.Match
+  pk: 1012
+  fields:
+    home_team: 5
+    away_team: 14
+    score_home: 4
+    score_away: 2
+    date: 2026-02-27T17:00:00Z
+    stadium: Winning Group Arena
+
+- model: app.Match
+  pk: 1013
+  fields:
+    home_team: 10
+    away_team: 13
+    score_home: 1
+    score_away: 3
+    date: 2026-02-27T17:00:00Z
+    stadium: Zimní stadion Olomouc
+
+- model: app.Match
+  pk: 1014
+  fields:
+    home_team: 7
+    away_team: 11
+    score_home: 3
+    score_away: 2
+    date: 2026-02-27T17:00:00Z
+    stadium: Zimní stadion Ivana Hlinky
+
+
+# 51. kolo
+- model: app.Match
+  pk: 1015
+  fields:
+    home_team: 1
+    away_team: 6
+    score_home: 2
+    score_away: 3
+    date: 2026-03-01T15:00:00Z
+    stadium: O2 arena
+
+- model: app.Match
+  pk: 1016
+  fields:
+    home_team: 14
+    away_team: 5
+    score_home: 4
+    score_away: 3
+    date: 2026-03-01T15:00:00Z
+    stadium: ČEZ Stadion Kladno
+
+- model: app.Match
+  pk: 1017
+  fields:
+    home_team: 3
+    away_team: 8
+    score_home: 3
+    score_away: 2
+    date: 2026-03-01T15:00:00Z
+    stadium: Home Credit Arena
+
+- model: app.Match
+  pk: 1018
+  fields:
+    home_team: 4
+    away_team: 2
+    score_home: 5
+    score_away: 4
+    date: 2026-03-01T15:00:00Z
+    stadium: Enteria arena
+
+- model: app.Match
+  pk: 1019
+  fields:
+    home_team: 12
+    away_team: 10
+    score_home: 2
+    score_away: 1
+    date: 2026-03-01T15:00:00Z
+    stadium: Ostravar Aréna
+
+- model: app.Match
+  pk: 1020
+  fields:
+    home_team: 13
+    away_team: 7
+    score_home: 3
+    score_away: 1
+    date: 2026-03-01T15:00:00Z
+    stadium: ŠKO-ENERGO Aréna
+
+- model: app.Match
+  pk: 1021
+  fields:
+    home_team: 9
+    away_team: 11
+    score_home: 4
+    score_away: 2
+    date: 2026-03-01T15:00:00Z
+    stadium: LOGSPEED CZ Aréna
+
+
+# 52. kolo
+- model: app.Match
+  pk: 1022
+  fields:
+    home_team: 2
+    away_team: 1
+    score_home: 3
+    score_away: 4
+    date: 2026-03-04T18:00:00Z
+    stadium: Werk Arena
+
+- model: app.Match
+  pk: 1023
+  fields:
+    home_team: 6
+    away_team: 4
+    score_home: 2
+    score_away: 3
+    date: 2026-03-04T18:00:00Z
+    stadium: ČPP Arena
+
+- model: app.Match
+  pk: 1024
+  fields:
+    home_team: 5
+    away_team: 3
+    score_home: 3
+    score_away: 5
+    date: 2026-03-04T18:00:00Z
+    stadium: Winning Group Arena
+
+- model: app.Match
+  pk: 1025
+  fields:
+    home_team: 8
+    away_team: 12
+    score_home: 2
+    score_away: 3
+    date: 2026-03-04T18:00:00Z
+    stadium: KV Arena
+
+- model: app.Match
+  pk: 1026
+  fields:
+    home_team: 10
+    away_team: 9
+    score_home: 1
+    score_away: 4
+    date: 2026-03-04T18:00:00Z
+    stadium: Zimní stadion Olomouc
+
+- model: app.Match
+  pk: 1027
+  fields:
+    home_team: 7
+    away_team: 13
+    score_home: 2
+    score_away: 3
+    date: 2026-03-04T18:00:00Z
+    stadium: Zimní stadion Ivana Hlinky
+
+- model: app.Match
+  pk: 1028
+  fields:
+    home_team: 11
+    away_team: 14
+    score_home: 2
+    score_away: 3
+    date: 2026-03-04T18:00:00Z
+    stadium: Trinity Bank Aréna
