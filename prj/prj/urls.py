@@ -20,3 +20,7 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path("api/", api.urls),  
 ]
+
+urlpatterns = [
+    path("api-playground/", views.api_playground, name="api_playground"),
+]
