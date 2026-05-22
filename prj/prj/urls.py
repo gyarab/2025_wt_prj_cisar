@@ -3,7 +3,7 @@ from django.contrib import admin
 from django.urls import path
 from app import views
 from ninja import NinjaAPI
-from app.api import api
+from .api import api
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -12,7 +12,7 @@ urlpatterns = [
     path('api/', api.urls),
 ]
 
-from prj.api import api
+from . import api
 
 api = NinjaAPI()
 
