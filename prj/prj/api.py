@@ -1,8 +1,8 @@
 from ninja import NinjaAPI
 from django.shortcuts import get_object_or_404
 
-from ..app.models import Player, Team
-from ..app.schemas import PlayerSchema, PlayerCreateSchema
+from app.models import Player, Team
+from app.schemas import PlayerSchema, PlayerCreateSchema
 
 api = NinjaAPI()
 
