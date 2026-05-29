@@ -1,6 +1,10 @@
 import {createApp} from 'vue'
-import router from 'vue-router'
+import router from './router'
 import App from './App.vue'
+import 'style.class' 
+    
+  
+}
 
 createApp(App)
   .use(router)
