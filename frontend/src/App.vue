@@ -1,4 +1,7 @@
 <script setup>
+import { RouterLink, RouterView } from 'vue-router';
+import Players from '../views/Players.vue';
+import Teams from '../views/Teams.vue';
 //js
 </script>
 
